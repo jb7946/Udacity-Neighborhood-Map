@@ -1,0 +1,40 @@
+ html, body {
+ 	height: 100%;
+ 	width: 100%;
+ 	overflow-y:hidden;
+  background-color: black;
+  color: #000;
+ }
+
+ h1 {
+   color: #fff;
+ }
+
+ label {
+   color: #fff;
+ }
+
+ table, td, tr {
+   background-color: white;
+   color: black;
+   border: 5px solid #000;
+ }
+
+ .filterset {
+   margin: auto;
+   width: 30%;
+ }
+
+ #map {
+ 	height: 90%;
+ 	width: 98%;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-top: 5px;
+ }
+
+.markerLink{
+	color: #fff;
+
+}
