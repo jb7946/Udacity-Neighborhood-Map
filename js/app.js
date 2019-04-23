@@ -68,7 +68,7 @@ function ViewModel() {
 			center: {lat: 29.709076, lng: -95.461662},
 			mapTypeId: google.maps.MapTypeId.ROADMAP,
 			mapTypeControlOptions: {style: google.maps.MapTypeControlStyle.DROPDOWN_MENU},
-			zoom: 15
+			zoom: 10
     	});
     	var bounds = new google.maps.LatLngBounds();
 	    this.markerInfoWindow = new google.maps.InfoWindow();
