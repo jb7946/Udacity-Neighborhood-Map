@@ -32,7 +32,7 @@ function ViewModel() {
 				if(businessDataJson.is_closed) {
 					var storeOpen = ' Currently Closed '
 				} else
-					var storeOpen = ' Currently Open for Business'
+					var storeOpen = ' Currently Open for Business '
 
 				if(businessDataJson.rating > 1) {
 					var ratingPlural = " stars "
