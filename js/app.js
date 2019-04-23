@@ -27,7 +27,7 @@ function ViewModel() {
 			success: function(businessDataJson) {
 				// local testing only
 				//console.log("name: " + businessDataJson.name + " is_closed: " + businessDataJson.is_closed)
-				console.log(businessDataJson.name + ' ' + businessDataJson.url)
+				//console.log(businessDataJson.name + ' ' + businessDataJson.url)
 				// instead of true and false, convert to more readable text to inform user if business is open now
 				if(businessDataJson.is_closed) {
 					var storeOpen = ' Currently Closed '
